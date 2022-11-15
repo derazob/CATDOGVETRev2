@@ -2,11 +2,11 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Actividad3"
-    android:background="@drawable/huesitos"
-    android:id="@+id/Layout">
+    android:background="@drawable/fondovet"
+    tools:context=".Actividad3">
 
 
     <EditText
@@ -34,12 +34,12 @@
         android:layout_marginEnd="8dp"
         android:text="NUEVO CLIENTE"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textColorHint="@color/black"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -78,7 +78,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/btn_redon_log"
+        android:background="#004BCC"
         android:onClick="snack"
         android:text="CREAR USUARIO"
         android:textColorHint="@color/black"

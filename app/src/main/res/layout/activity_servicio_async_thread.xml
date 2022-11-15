@@ -33,6 +33,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="110dp"
+        android:backgroundTint="#004BCC"
         android:text="@string/tarea_pesada" />
 
     <TextView
@@ -55,6 +56,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:backgroundTint="#004BCC"
         android:text="@string/hilos" />
 
     <TextView
@@ -76,6 +78,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:backgroundTint="#004BCC"
         android:text="@string/asynctask"
         android:textSize="0.10in" />
 
